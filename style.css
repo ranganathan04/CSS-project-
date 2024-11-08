@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.card {
+    width: 200px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Specific Styles for Each Text Property */
+.text-color {
+    color: #3498db;
+    cursor: pointer;
+}
+
+.text-direction {
+    direction: rtl;
+    cursor: pointer;
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.word-spacing {
+    word-spacing: 10px;
+    cursor: pointer;
+}
+
+.text-indent {
+    text-indent: 20px;
+    cursor: pointer;
+}
+
+.text-align-right {
+    text-align: right;
+    cursor: pointer;
+}
+
+.text-align-left {
+    text-align: left;
+    cursor: pointer;
+}
+
+.text-align-justify {
+    text-align: justify;
+    cursor: pointer;
+}
+
+.text-decoration {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.text-transform {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.text-overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.line-height {
+    line-height: 2;
+    cursor: pointer;
+}
